@@ -6,7 +6,7 @@ import cors from 'cors'
 dotenv.config()
 var app =express()
 
-var Mongo_Url =process.env.Mongo_Url
+var Mongo_Url ="mongodb+srv://gokulakrishnan:Gokul4580@cluster0.lsiocek.mongodb.net"
 var client = new MongoClient(Mongo_Url)
 await client.connect()
 app.use(cors())

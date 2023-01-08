@@ -20,4 +20,6 @@ app.get("/",async function(request,response){
     response.send(data)
 })
 app.listen(PORT)
+
+// website to see screenshots
 //https://sql-71uc.onrender.com/
